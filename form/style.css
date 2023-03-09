@@ -1,0 +1,124 @@
+body{
+	color: white;
+	display: flex!important;
+	flex-direction: column;
+	justify-content: center!important;
+}
+.gradient-custom {
+	background-color: #32343A;
+}
+.main{
+	
+	width: 100%;
+	display: flex!important;
+	justify-content: center!important;
+}
+.butttn{
+	margin-left: 20%;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+/* input .form-control-lg{
+	background-color: rgba(70,70,70) !important;
+} */
+.chat{
+	width: 100%;
+}
+.chatbot-message{
+	display: flex;
+	flex-direction: row;
+	border-bottom: solid 1px #303030;
+	background: #444650;
+	text-align: justify;
+	width: 100% !important;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+.chatbot-text{
+	padding-left: 2.5%;
+}
+.chatbot-icon{
+	width: 2rem;
+	height: 2rem;
+	
+	
+	/* Accent Green */
+	
+	background: #0FA47F;
+	border-radius: 2px;
+}
+.user-message{
+	display: flex;
+	flex-direction: row;
+	border: solid 1px #202020;
+	background: #303030;
+	text-align: justify;
+	width: 100% !important;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+.user-text{
+	padding-left: 2.5%;
+}
+.user-icon{
+	width: 20%;
+	height: 2rem;
+	
+	
+	/* Accent Green */
+	
+	background: #5536DA;
+	border-radius: 2px;
+}
+.btn{
+	
+	background-color:#40414E !important;
+	border: none;
+}
+.prompt{
+	background-color: #32343A;
+	width: 80%;
+	height: 7.5%;
+	position: fixed;
+	bottom: 7.5%;
+}
+.form-control :active :after :enabled :hover {
+	background-color:#40414E !important;
+	border: none !important;
+	box-shadow: none !important;
+	color: white !important;
+}
+.form-control{
+	background-color:#40414E !important;
+	border: none !important;
+	box-shadow: none !important;
+	color: white !important;
+}
+.fa{
+	background-image:url("icons/share1.png")fixed no-repeat center ;
+}
+
+
+
+/* *** Writing Animation *****
+
+.typed {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0;
+	animation: typing;
+	animation-duration: 1.5s;
+	animation-timing-function: steps(30, end);
+	animation-fill-mode: forwards;
+  }
+	
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  } */
